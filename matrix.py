@@ -67,7 +67,7 @@ class Matrix:
         for i in self.matrix:
             t += 1
             print(i, end = ' ')
-            if t % 3 == 0:
+            if t % self.nrow == 0:
                 print('')
 
     
@@ -77,7 +77,7 @@ class Matrix:
         for i in self.matrix_add:
             t += 1
             print(i, end = ' ')
-            if t % 3 == 0:
+            if t % self.nrow == 0:
                 print('')
 
 
@@ -87,7 +87,7 @@ class Matrix:
         for i in self.matrix_sub:
             t += 1
             print(i, end = ' ')
-            if t % 3 == 0:
+            if t % self.nrow == 0:
                 print('')
 
 
@@ -97,7 +97,7 @@ class Matrix:
         for i in self.matrix_mul:
             t += 1
             print(i, end = ' ')
-            if t % 3 == 0:
+            if t % self.nrow == 0:
                 print('')
 
 
@@ -107,7 +107,7 @@ class Matrix:
         for i in self.matrix_transpose:
             t += 1
             print(i, end = ' ')
-            if t % 3 == 0:
+            if t % self.nrow == 0:
                 print('')
 
 
